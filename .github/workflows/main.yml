@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: almyte/Hello_Word@v1
+      uses: almyte/Hello_Word@v2
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
